@@ -26,7 +26,7 @@ const App = () => {
 
 
   return (
-    <View>
+    <View style={{flex : 1}}>
       <AppNavigator />
     </View>
   );
