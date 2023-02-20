@@ -24,35 +24,35 @@ const Splash: React.FC<{ navigation: any }> = ({ navigation }) => {
     return (
         <View style={[styles.mainContainer]}>
             <SafeAreaView>
-                {/* <View style={{ alignItems: 'center', marginBottom: 300 }}>
+                <View style={{ alignItems: 'center', marginBottom: 300 }}>
                     <View>
-                        <Image
+                        {/* <Image
                             source={Icons.ic_splashLogo}
                             style={{ width: 200, height: 200, resizeMode: 'contain' }}
-                        />
+                        /> */}
                     </View>
                 </View>
 
                 <View style={{ width: 300 }}>
                     <View style={{ width: '100%', alignSelf: 'center', marginBottom: 20 }}>
                         <Text style={{ textAlign: 'center', fontSize: 10, fontStyle: 'italic' }}>Powered By</Text>
-                    </View> */}
-                    {/* <View
+                    </View> 
+                    <View
                         style={{
                             flexDirection: 'row',
                             justifyContent: 'space-between',
                             height: 100,
                         }}>
-                        <Image
+                        {/* <Image
                             source={Icons.ic_usaid}
                             style={{ width: 100, height: 70, resizeMode: 'contain' }}
                         />
                         <Image
                             source={Icons.ic_pitc}
                             style={{ width: 100, height: 70, resizeMode: 'contain' }}
-                        />
-                    </View> */}
-                {/* </View> */}
+                        /> */}
+                    </View>
+                 </View>
             </SafeAreaView>
         </View>
     );
