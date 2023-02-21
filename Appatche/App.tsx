@@ -19,14 +19,14 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import AppNavigator from './src/navigation/Navigation';
+import AppNavigator from './src/navigation/AppNavigator';
 
 
 const App = () => {
 
 
   return (
-    <View style={{flex : 1}}>
+    <View style={{ flex: 1 }}>
       <AppNavigator />
     </View>
   );
